@@ -1,0 +1,29 @@
+.box {
+    background-color: rgb(198, 8, 8);
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 100s linear;
+    border-radius: 20px;
+    border: 2px dashed pink;
+    transform: rotate3d(0, 0, 1, calc(360deg*100));
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1700px;
+
+}
+
+.text {
+    color: cyan;
+    font-size: 80px;
+}
+
+.text:hover {
+    color: black;
+
+}
